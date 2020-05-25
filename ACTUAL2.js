@@ -6,7 +6,7 @@ const submit =document.querySelector("submit");
 
 const buddybot=document.querySelector("buddybot");  
 
-submit.addEventListener("submit", response);
+submit.addEventListener("click", response);
 
 function response () {
     botchat.innerhtml = "Hello" + userInput.value;
