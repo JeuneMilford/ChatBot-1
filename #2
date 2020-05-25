@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>   
+
+<html> 
+
+ 
+
+<head> 
+
+<title> T-Bot </title> 
+
+</head>   
+
+
+<body>  
+
+     
+    </h2>
+    <h1> T-BOT</h1> 
+
+<p id="botchat">Hello there, What's your name </p> 
+
+<h3></h3> 
+
+<input type="text" id="userInput"> 
+
+<button id="submit">submit</button> 
+<script src = "Test.js"></script>
+</body>
