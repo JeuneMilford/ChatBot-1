@@ -10,7 +10,6 @@ submit.addEventListener("click", response);
 
 function response () {
     botchat.innerhtml = "Hello" + userInput.value;
-
 }
 
   
