@@ -4,7 +4,7 @@ const userInput =document.querySelector("userInput");
 
 const submit =document.querySelector("submit");  
 
-const buddybot=document.querySelector("buddybot");  
+const buddybot=document.querySelector("botchat");  
 
 submit.addEventListener("click", response);
 
