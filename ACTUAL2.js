@@ -1,4 +1,4 @@
-alert("testing");
+alert("T-BOT iS loading");
 
 const userInput =document.querySelector("userInput");  
 
