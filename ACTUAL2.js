@@ -45,7 +45,7 @@ function nextResponse () {
   }  
 
   else {
-      botchat.textContent = "WhAt CoLoUr DoEs BlUe & ReD mAkE";
+      botchat.textContent = "WhAt CoLoUr DoEs BlUe & ReD mAkE, hInT bEgInS wItH P";
       if (userInput.value == "Red", "Blue" , "Ivy" , "Pink" , "Gold") {
           
         
