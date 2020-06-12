@@ -40,7 +40,7 @@ function nextResponse () {
   if ( userInput.value == "Purple") 
   {
       
-      botchat.textContent = "YaY, GoOd JoB, yOu KnOw WhAt To Do If YoU wAnT tHe NeXt QuEsTiOn! ";
+      botchat.textContent = "YaY, GoOd JoB, nOw Go OuTsIdE & HaVe A GrEat DaY";
       submit.addEventListener("click" , anotherQuestion);
   }  
 
