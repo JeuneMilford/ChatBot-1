@@ -31,3 +31,26 @@ function nextQuestion () {
         botchat.textContent = "PiTy, ClIcK tO SeE iF tHe NeXt QuEsTiOn WiLl ChEeR yOu Up";
         submit.addEventListener("click" , nextResponse);
     }
+    
+
+}
+
+function nextResponse () {
+    botchat.textContent = "CoRrEcT, YaY!, ClIcK tO SeE tHe NeXt QuEsTiOn";
+  if ( userInput.value == "Purple") 
+  {
+      
+      botchat.textContent = "YaY, GoOd JoB, yOu KnOw WhAt To Do If YoU wAnT tHe NeXt QuEsTiOn! ";
+      submit.addEventListener("click" , anotherQuestion);
+  }  
+
+  else {
+      botchat.textContent = "WhAt CoLoUr DoEs BlUe & ReD mAkE";
+      if (userInput.value == "Red", "Blue" , "Ivy" , "Pink" , "Gold") {
+          
+        
+      }
+  }
+
+}
+
