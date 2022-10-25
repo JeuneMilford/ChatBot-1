@@ -1,4 +1,4 @@
-alert("T-BOT iS lOadInG");
+alert("Blockbot is loadingS");
 
 const userInput =document.querySelector("#userInput");  
 
@@ -14,7 +14,7 @@ const greetings = ["Hello" , "Whats Up" , "Kia Ora"]
 const botgreetings = Math.floor(Math.random() * 2);
 
 function response () {
-    botchat.textContent = greetings[botgreetings] + " " + userInput.value + " " + "why do you enjoy Blockchain?";
+    botchat.textContent = greetings[botgreetings] + " " + userInput.value + " " + " do you enjoy Blockchain?";
     submit.addEventListener("click" , nextQuestion);
    
 
