@@ -22,13 +22,13 @@ function response () {
 
     
 function nextQuestion () {
-    botchat.textContent = "er try use Bad or Good?";
-    if ( userInput.value == "Good" ) {
-        botchat.textContent = "YaY, tHaT's GoOd To HeAr,ClIcK tO sEe NeXt QuEsTiOn";
+    botchat.textContent = "Try to use Yes or No";
+    if ( userInput.value == "Yes" ) {
+        botchat.textContent = "Why do you enjoy blockchain?";
         submit.addEventListener("click" , nextResponse);
     }
-    if (userInput.value == "Bad") {
-        botchat.textContent = "PiTy, ClIcK tO SeE iF tHe NeXt QuEsTiOn WiLl ChEeR yOu Up";
+    if (userInput.value == "No") {
+        botchat.textContent = "That's ok Blockchain isnt made for everyone";
         submit.addEventListener("click" , nextResponse);
     }
     
@@ -36,17 +36,17 @@ function nextQuestion () {
 }
 
 function nextResponse () {
-    botchat.textContent = "CoRrEcT, YaY!, ClIcK tO SeE tHe NeXt QuEsTiOn";
-  if ( userInput.value == "Purple") 
+    botchat.textContent = "Correct! click to see the next question";
+  if ( userInput.value == "Public Blockchain", "Private Blockchain", "Consortium Blockchain") 
   {
       
-      botchat.textContent = "YaY, GoOd JoB, nOw Go OuTsIdE & HaVe A GrEat DaY";
+      botchat.textContent = "You have reached the end, hope you leanrt something new about Blockchain";
       submit.addEventListener("click" , anotherQuestion);
   }  
 
   else {
-      botchat.textContent = "WhAt CoLoUr DoEs BlUe & ReD mAkE, hInT bEgInS wItH P";
-      if (userInput.value == "Red", "Blue" , "Ivy" , "Pink" , "Gold") {
+      botchat.textContent = "Name one of the 3 types of Blockchains";
+      if (userInput.value == "Nft Blockchain", "Cardano Blockchain" , "cnft Blockchain" ) {
           
         
       }
