@@ -1,4 +1,4 @@
-alert("Blockbot is loadingS");
+alert("Blockbot is loading");
 
 const userInput =document.querySelector("#userInput");  
 
